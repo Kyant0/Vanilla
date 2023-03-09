@@ -1,0 +1,63 @@
+* {
+    font-family: sans-serif;
+}
+
+.frame {
+    height: calc(100vh - 96px);
+    margin: 16px 24px;
+    border: 3px solid darkgray;
+    border-radius: 24px;
+    background-color: bisque;
+}
+
+.headline {
+    margin: 32px;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.bottom_button_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.filled_button {
+    flex: 1;
+    height: 44px;
+    margin: 0 8px;
+    padding: 0 16px;
+    border: none;
+    background-color: coral;
+    border-radius: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.filled_button:hover {
+    background-color: coral;
+}
+
+.filled_button:active {
+    outline: 3px solid dodgerblue;
+}
+
+.outlined_button {
+    flex: 1;
+    height: 44px;
+    margin: 0 8px;
+    padding: 0 16px;
+    border: 2px solid darkgray;
+    border-radius: 16px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.outlined_button:hover {
+    background-color: coral;
+}
+
+.outlined_button:active {
+    outline: 3px solid dodgerblue;
+}
