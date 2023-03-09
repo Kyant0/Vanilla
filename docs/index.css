@@ -34,10 +34,6 @@ body {
     cursor: pointer;
 }
 
-.filled_button:hover {
-    background-color: coral;
-}
-
 .filled_button:focus, .filled_button:active {
     outline: 3px solid dodgerblue;
 }
