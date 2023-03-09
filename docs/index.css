@@ -2,34 +2,33 @@
     font-family: sans-serif;
 }
 
-.frame {
-    height: calc(100vh - 96px);
-    margin: 16px 24px;
-    border: 3px solid darkgray;
-    border-radius: 24px;
-    background-color: bisque;
+body {
+    background-color: #e8eaed;
 }
 
 .headline {
-    margin: 32px;
+    margin: 64px 32px;
     font-size: 3rem;
+    text-align: center;
+}
+
+.version {
+    margin: 32px;
     text-align: center;
 }
 
 .bottom_button_group {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding: 0 16px;
 }
 
 .filled_button {
-    flex: 1;
-    height: 44px;
-    margin: 0 8px;
+    height: 48px;
+    margin: 4px 8px;
     padding: 0 16px;
-    border: none;
     background-color: coral;
+    border: none;
     border-radius: 16px;
     font-size: 1rem;
     cursor: pointer;
@@ -39,16 +38,16 @@
     background-color: coral;
 }
 
-.filled_button:active {
+.filled_button:focus, .filled_button:active {
     outline: 3px solid dodgerblue;
 }
 
 .outlined_button {
-    flex: 1;
-    height: 44px;
-    margin: 0 8px;
+    height: 48px;
+    margin: 4px 8px;
     padding: 0 16px;
-    border: 2px solid darkgray;
+    background-color: #e8eaed;
+    border: 2px solid black;
     border-radius: 16px;
     font-size: 1rem;
     cursor: pointer;
@@ -58,6 +57,6 @@
     background-color: coral;
 }
 
-.outlined_button:active {
+.outlined_button:focus, .outlined_button:active {
     outline: 3px solid dodgerblue;
 }
